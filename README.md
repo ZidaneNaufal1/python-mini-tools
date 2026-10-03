@@ -1,57 +1,85 @@
 # 🐍 Python Mini Tools
 
-A collection of small command-line tools built with Python.
-
-This repository is part of my journey to improve programming fundamentals, problem-solving, and software development skills.
+A collection of small command-line tools built with Python to practice programming fundamentals, problem solving, and clean project organization.
 
 ---
 
-## 🛠️ Tools
+## ✅ Implemented
 
 ### 🧮 Calculator
-Basic calculator supporting:
+
+A simple calculator that supports:
 
 - Addition
 - Subtraction
 - Multiplication
 - Division
+- Invalid number handling
+- Invalid operator handling
+- Division-by-zero protection
 
-### 🔄 Unit Converter
-Convert common units such as:
+Run it with:
 
-- Length
-- Weight
-- Temperature
+```bash
+python3 calculator.py
+```
 
-### 🔐 Password Generator
-Generate random passwords with customizable length and characters.
+Example:
+
+```text
+================================
+       PYTHON CALCULATOR
+================================
+First number: 200
+Operator (+, -, *, /): -
+Second number: 400
+
+Result: -200.0
+```
+
+---
+
+## 🛠️ Planned Tools
+
+- 🔄 Unit Converter
+- 🔐 Password Generator
+- 📋 Unified CLI Menu
 
 ---
 
 ## 📚 Concepts Practiced
 
-- Variables
-- Data types
-- Conditional statements
-- Loops
-- Functions
-- Error handling
-- Modules
+- Variables and data types
 - User input
-- Basic file organization
+- Conditional statements
+- Functions
+- Error handling with `try` / `except`
+- Basic CLI application flow
+
+---
+
+## 📂 Current Structure
+
+```text
+python-mini-tools/
+├── calculator.py
+└── README.md
+```
+
+The structure will grow as new tools are implemented.
 
 ---
 
 ## 🚀 Project Status
 
-🟢 In development
+🟡 **In development**
 
-New tools will be added as I continue learning Python.
+The calculator is complete and tested. Additional tools will be added incrementally.
 
 ---
 
 ## 🎯 Goal
 
-Build small, practical projects while continuously improving Python and software development fundamentals.
+Build small but functional tools while improving Python fundamentals and software development habits.
 
-> Learn → Build → Improve
+> **Learn → Build → Test → Improve**
